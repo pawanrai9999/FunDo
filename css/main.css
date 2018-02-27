@@ -1,1 +1,29 @@
 // Style for main page
+
+.navLink ul{
+
+
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.navLink ul li {
+  display: inline;
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+  float: right;
+  padding: 2px;
+}
+
+.navLink ul li a {
+  display: block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.navLink h2{
+  display: inline;
+}
