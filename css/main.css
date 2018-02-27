@@ -1,5 +1,39 @@
 // Style for main page
 
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/paper-background.jpg");
+  height: 50%;
+}
+
+.caption{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+background-color: #111;
+color: #fff;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+}
+
 .navLink ul{
   padding: 0;
   margin: 0;
@@ -20,8 +54,4 @@
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
-}
-
-.navLink h2{
-  display: inline;
 }
